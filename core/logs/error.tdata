@@ -37,3 +37,7 @@
 
 [08-Dec-2021 12:31:32 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
 
+[08-Dec-2021 20:52:26 Asia/Dhaka] App Notice:  Controller File ("theme.php") Not Found | Request From ::1
+
+[08-Dec-2021 20:52:28 Asia/Dhaka] App Notice:  Controller File ("theme.php") Not Found | Request From ::1
+

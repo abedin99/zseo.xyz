@@ -3,7 +3,7 @@
 /*
  * @author Balaji
  * @name: Rainbow PHP Framework
- * @copyright © 2017 ProThemes.Biz
+ * @copyright ï¿½ 2017 ProThemes.Biz
  *
  */
  
@@ -27,8 +27,8 @@ function makeLoginNav($quick_login,$baseURL,$lang){
     $loginNav = '';
     
     if(isset($_SESSION[N_APP.'Username'])){
-        $loginNav .= '<li><a class="signin" href="'.$baseURL.'?logout">'.trans('Logout',$lang['RF104'],true).'</a></li>
-        <li><a class="signup" href="'.createLink('my-profile',true).'">'.trans('My Profile',$lang['RF83'],true).'</a></li>';
+        $loginNav .= '<li><a class="signup" href="'. createLink('my-profile',true) .'">'.trans('My Profile',$lang['RF83'],true).'</a></li>
+        <li><a class="signin" href="'.$baseURL.'?logout">'.trans('Logout',$lang['RF104'],true).'</a></li>';
     }else{
         if($quick_login){
             $loginNav .= '<li><a class="signin" data-target="#signin" data-toggle="modal" href="#">'.trans('Log In',$lang['RF89'],true).'</a></li>

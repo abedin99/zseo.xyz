@@ -1,6 +1,6 @@
 body {
     background-attachment: scroll;
-    background-color: #fff;
+    background-color: #f1f1f1;
     background-position: left top;
     background-repeat: repeat;
 
@@ -60,18 +60,23 @@ body {
     background: #51BAD6 none repeat scroll 0 0;
     box-sizing: border-box;
     color: #fff;
-    height: 140px;
+    min-height: 140px;
     margin-bottom: 40px;
     margin-top: -20px;
     overflow: hidden;
     width: 100%;
 }
 .atoz_seo_tools_logo, .themeLogoImg {
-   max-height: 120px;   
-    padding: 10px 0;
+    max-height: 120px;   
+    padding: 8px 0;
+    background: #ec9422;
 }
 .navbar-nav > li > a {
     text-transform: none;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    margin: 14px 0px;
 }
 #index_alert1{
     display: none;
@@ -84,17 +89,24 @@ body {
     margin-bottom:4px;
 }
 .navbar-default {
-   background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #2e8677, #2e8677);
    background-repeat: repeat-x;
-   border-color: #ebf1f8;
-   border-width: 0 1px 2px;
+   border-color: #ec9422;
+   border-width: 0 0 2px 0;
 }
 .navbar-brand{
-    margin-top: -13px;
     padding: 0 50px;
 }
 .navbar-right{
     margin-right: 24px;
+}
+.navbar-default .navbar-nav>li>a {
+    border-top: 0px;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #f9f9f9;
+    background-color: #ec9422;
 }
 .well{
     background-color: #fff;
@@ -114,13 +126,13 @@ body {
     margin-top: 60px;
 }
 .b-widgets {
-    background: #506273 none repeat scroll 0 0;
+    background: #222222 none repeat scroll 0 0;
     color: #fff;
     padding: 35px 40px 25px;
 
 }
 .footer {
-    background: #495b6c none repeat scroll 0 0 !important;
+    background: #333333 none repeat scroll 0 0 !important;
 }
 .alertNew {
     border-radius: 0;
@@ -157,7 +169,7 @@ body {
 }
 .footer {
     padding: 0;
-    border-top: 4px solid #51bad6;
+    border-top: 4px solid #4eb96e;
 }
 .popluarTools{
     background: #D7D7D7 none repeat scroll 0 0;
@@ -1076,7 +1088,7 @@ h4, .h4 {
     box-sizing: border-box;
     display: inline-block;
     padding: 5px;
-    width: 50%;
+    width: 100%;
 }
 #sidebar-results{
     padding: 3px !important;

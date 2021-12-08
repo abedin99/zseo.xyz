@@ -7,7 +7,7 @@
                 require_once(THEME_DIR."sidebar.php");
             }
         ?>
-  		<div class="col-md-8" id="seoTools">
+  		<div class="col-md-8 well" id="seoTools">
         <?php if(isSelected($themeOptions['general']['iSearch'])){ ?>
             <div id="searchSec" class="col-md-12">
                 <div class="form-group">
@@ -18,7 +18,7 @@
                     </div>
                 <div class="search-results" id="index-results"></div>
                 <hr />
-            </div>      
+            </div>
         <?php
         }
         $count = 1;
@@ -71,7 +71,7 @@
             // </div>
             // ';
 
-            if ($loop == 20)
+            if ($loop%10==0)
             { ?>
                 <div class="xd_top_box">
                     <?php echo $ads_468x70; ?>

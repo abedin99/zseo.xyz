@@ -1,13 +1,6 @@
 <?php
 defined('APP_NAME') or die(header('HTTP/1.1 403 Forbidden'));
 
-/*
- * @author Balaji
- * @name: Rainbow PHP Framework
- * @copyright 2021 ProThemes.Biz
- *
- */
-
 $protocol = ('HTTP/1.1' == $_SERVER["SERVER_PROTOCOL"]) ? 'HTTP/1.1' : 'HTTP/1.0';
 header("$protocol 503 Service Unavailable", true, 503);
 header('Retry-After: 3600');
@@ -28,7 +21,11 @@ $message = htmlspecialchars_decode($other['other']['maintenance_mes']);
 
 </head>
 <body>
-
+	<?php if(!isSelected($other['other']['maintenance'])){ ?>
+    <script>
+        window.location.href = "<?php createLink() ?>";
+    </script>
+    <?php } ?>
 	<div id="wrapper">
 		<div id="container">
 			<div id="content_container">

@@ -123,6 +123,16 @@ function getTopSEOTools($con, $arr){
     }
 }
 
+function getPopularSEOTools($con, $arr){
+    $result = mysqli_query($con, 'SELECT * FROM seo_tools ORDER BY CAST(tool_no AS UNSIGNED) ASC');
+    while ($row = mysqli_fetch_array($result)){
+        if(isSelected($row['tool_show'])){
+            if(in_array($row['uid'],$arr))
+                echo '<p><a href="'.createLink($row['tool_url'],true).'">'.shortCodeFilter($row['tool_name']).' </a></p>';
+        }
+    }
+}
+
 function ordinal($num) {
     $num = (int)$num;
     if ( ($num / 10) % 10 != 1 ){

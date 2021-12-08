@@ -75,7 +75,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $to['general']['topTools'] = $tempTo['general']['topTools'];
         else
            $to['general']['topTools'] = $_POST['topTools'];
-        
+
+        if(!isset($_POST['popularTools']))
+            $to['general']['popularTools'] = $tempTo['general']['popularTools'];
+        else
+           $to['general']['popularTools'] = $_POST['popularTools'];
+
         if(!isset($msg)){
            $themeStr = arrToDbStr($con,$to);
            $sqlQ = updateToDb($con,'themes_data',array($themePathName.'_theme' => $themeStr),array('id' => '1'));
