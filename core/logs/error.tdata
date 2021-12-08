@@ -1,0 +1,39 @@
+[04-Dec-2021 15:41:46 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From 103.73.196.130
+
+[04-Dec-2021 15:41:47 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From 103.73.196.130
+
+[04-Dec-2021 15:47:02 Asia/Dhaka] App Notice:  Controller File ("favicon.ico.php") Not Found | Request From 103.73.196.130
+
+[04-Dec-2021 16:12:57 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/onlyfile/zseo.filesfair.com/core/models/whois.php on line 382
+[04-Dec-2021 16:15:37 Asia/Dhaka] App Notice:  Controller File ("favicon.ico.php") Not Found | Request From 27.123.255.225
+
+[04-Dec-2021 16:53:16 Asia/Dhaka] App Notice:  Controller File ("favicon.ico.php") Not Found | Request From 103.73.196.130
+
+[05-Dec-2021 19:03:03 Asia/Dhaka] App Notice:  Controller File ("favicon.ico.php") Not Found | Request From 103.73.196.130
+
+[08-Dec-2021 09:28:16 Asia/Dhaka] App Notice:  Controller File ("favicon.ico.php") Not Found | Request From 103.73.196.130
+
+[08-Dec-2021 11:41:27 Asia/Dhaka] App Notice:  Controller File ("favicon.ico.php") Not Found | Request From 103.73.196.130
+
+[08-Dec-2021 12:05:50 Asia/Dhaka] App Notice:  Controller File ("content.php") Not Found | Request From 103.73.196.130
+
+[08-Dec-2021 12:24:40 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
+
+[08-Dec-2021 12:28:27 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
+
+[08-Dec-2021 12:28:29 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
+
+[08-Dec-2021 12:28:30 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
+
+[08-Dec-2021 12:28:50 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
+
+[08-Dec-2021 12:29:00 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
+
+[08-Dec-2021 12:29:26 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
+
+[08-Dec-2021 12:29:58 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
+
+[08-Dec-2021 12:30:07 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
+
+[08-Dec-2021 12:31:32 Asia/Dhaka] App Notice:  Unable to connect to Mysql Server | Request From ::1
+
