@@ -1,13 +1,4 @@
-<?php
-defined('APP_NAME') or die(header('HTTP/1.0 403 Forbidden'));
-/*
- * @author Balaji
- * @name: Rainbow PHP Framework
- * @Theme: Default Style
- * @copyright 2017 ProThemes.Biz
- *
- */
-?>
+<?php defined('APP_NAME') or die(header('HTTP/1.0 403 Forbidden'));?>
 
 <div class="col-md-4" id="rightCol">       	
     <?php if(isSelected($themeOptions['general']['sSearch'])){ ?>   
